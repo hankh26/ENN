@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/product"
+        android:title="상품"
+        android:icon="@drawable/ic_shop_black_24dp"
+        app:showAsAction="always"
+        android:onClick="clickhome"/>
+    <item android:id="@+id/event"
+        android:title="이벤트"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"/>
+    <item android:id="@+id/scrap"
+        android:title="리뷰"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_rate_review_black_24dp"/>
+    <item android:id="@+id/etc"
+        android:title="기타"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_grain_black_24dp"/>
+
+</menu>
